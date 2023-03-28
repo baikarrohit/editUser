@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crud Crud</title>
+    <!--<link rel="stylesheet" href="./style.css">-->
+  </head>
+  <body>
+    <form id="my-form" onsubmit="saveToLocalStorage(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="username" name="username" required> 
+      <label for="email">Email:</label>
+      <input type="email" id="emailid" name="emailid" required> 
+      
+      <button type="submit" >Submit</button>
+    </form>
+    <ul id="items">
+    
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
